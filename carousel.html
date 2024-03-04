@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="Assests/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+    <link rel="stylesheet" href="Assests/css/style.css">
+    <title>Carousel</title>
+</head>
+<body>
+        <!--Header-->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                <div class="container">
+                    <a href="/" class="navbar-brand">
+                        <img src="https://getbootstrap.com//docs/5.0/assets/brand/bootstrap-logo.svg" alt="bootstrap-logo" width="30" height="24" class="d-inline-block align-text-evenly">
+                        bootstrap Tamil</a>
+    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+    
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="navbar-nav" style="margin-left: auto !important;">
+                            <li class="nav-item">
+                                <a href="grid.html" class="nav-link">Grid</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="typography.html" class="nav-link">Typography</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="image.html" class="nav-link">Image</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="tables.html" class="nav-link">Tables</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="navbar.html" class="nav-link">navbar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="breadcrumb.html" class="nav-link">Breadcrumb</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="cards.html" class="nav-link">cards</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="blog.html" class="nav-link">blog</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a href="carousel.html" class="nav-link">carousel</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- End Header -->
+
+<!-- carousel -->
+<div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="image/gojo-01.png" class="d-block w-100" alt="First Image">
+        </div>
+        <div class="carousel-item">
+            <img src="image/Free download _ HD wallpaper_ Zootopia, rabbit, cartoon, fox.jpeg" class="d-block w-100" alt="Second Image">
+        </div>
+        <div class="carousel-item">
+            <img src="image/Turn ideas into videos _ AI video creator _ invideo AI.jpeg" class="d-block w-100" alt="Third Image">
+            <div class="carousel-caption d-none d-sm-block">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+    </div>
+</div>
+
+
+
+
+
+        <script src="Assests/js/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js" integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="Assests/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
